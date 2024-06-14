@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    font-family: "Pytone One", sans-serif;
+}
+
+/* variaveis */
+:root {
+    --white: white;
+    --gray:rgb(168, 165, 165);
+    --blue:rgb(61, 61, 157);
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* cores */
+.bg-red{
+    background-color:var(--white)
+    
+}
+
+.bg-gray{
+    background-color: var(--gray);
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.b-radius{
+    border-radius: 15px;
+}
+
+/* espaçamentos */
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.margin{
+    margin: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+body{
+    background-color:var(--white);
+    font-family: "Inter", sans-serif;
+}
+
+.logo {
+    width: 100px;
+}
