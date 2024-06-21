@@ -8,8 +8,11 @@
 /* variaveis */
 :root {
     --white: white;
-    --gray:rgb(168, 165, 165);
-    --blue:rgb(61, 61, 157);
+    --gray:#417D9B;
+    --blueclaro:#C0E9FF;
+    --blue:#0166B2;
+
+
 }
 
 .d-flex{
@@ -23,15 +26,15 @@
 }
 
 .bg-gray{
-    background-color: var(--gray);
-}
-
-.bg-blue{
     background-color: var(--blue);
 }
 
-.b-radius{
-    border-radius: 15px;
+.bg-blue{
+    background-color: var(--gray);
+}
+
+.tex-white{
+    color: var(--white);
 }
 
 /* espaçamentos */
@@ -41,18 +44,56 @@
     justify-content: center;
     
 }
-.margin{
-    margin: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 30px;
-    margin-top: 30px;
+
+.b-radius{
+    border-radius: 15px;
 }
+
 body{
-    background-color:var(--white);
+    background-color:var(--blueclaro);
     font-family: "Inter", sans-serif;
 }
 
 .logo {
-    width: 100px;
+    width: 300px;
 }
+
+.text-tam{
+    font-size: 50px;
+}
+
+.text-tam-ex{
+    font-size: 30px;
+}
+.negrito{
+    font-weight: bold;
+}
+
+.foto {
+    width: 200px;
+    margin: 10px;
+       
+}
+
+.pyton{
+    width: 400px;
+}
+
+.semafaro{
+    width: 350px;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.caixa{
+    padding: 40px;
+    border: 2px;
+    margin-top: 45px;
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    box-shadow: 4px -4px 12px 2px #00000066;;
+}
+
