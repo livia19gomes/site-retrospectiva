@@ -58,6 +58,7 @@ body{
     width: 300px;
 }
 
+
 .text-tam{
     font-size: 50px;
 }
@@ -67,6 +68,15 @@ body{
 }
 .negrito{
     font-weight: bold;
+}
+
+.mudar-cor{
+    color: var(--white); 
+    transition: color 0.3s ease;
+}
+
+.mudar-cor:hover {
+    color: var(--blue);
 }
 
 .foto {
@@ -94,6 +104,10 @@ body{
     border-radius: 20px;
     margin-left: 250px;
     margin-right: 250px;
-    box-shadow: 4px -4px 12px 2px #00000066;;
+    box-shadow: 4px -4px 12px 2px #00000066;
+    transition: ALL 0.3s ease;
+}
+.caixa:hover{
+    transform: scale(1.1);
 }
 
